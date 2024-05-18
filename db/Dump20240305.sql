@@ -36,7 +36,7 @@ CREATE TABLE `login` (
 
 LOCK TABLES `login` WRITE;
 /*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES (1,'sasi','1234');
+INSERT INTO `login` VALUES (1,'shakil','1234');
 /*!40000 ALTER TABLE `login` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -64,7 +64,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'sasi','s@gmail.com','1234');
+INSERT INTO `user` VALUES (1,'shakil','s@gmail.com','1234');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -85,13 +85,12 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
 -- Dumping data for table `users`
 --
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'sasi','$2y$10$JBGsBhk8BhssD5wB9GrxGeKxWGch2OkMsFpPJQ/XqsFGbYOer.bau','2024-02-28 21:01:54'),(2,'dharnesh','$2y$10$gSHl8K2Y0kX.GWElK6WDh.cl./3Lmn2wwL6KxCsCrueLmujTzXXCe','2024-03-03 19:00:35'),(3,'jai','$2y$10$QnC.Bk6De059zmlTY7XuOu85IPuG9PDuKhzDdcHUdyR/hkzCFBseK','2024-03-04 20:43:01');
+INSERT INTO `users` VALUES (1,'shakil','$2y$10$JBGsBhk8BhssD5wB9GrxGeKxWGch2OkMsFpPJQ/XqsFGbYOer.bau','2024-02-28 21:01:54'),(2,'dhanush','$2y$10$gSHl8K2Y0kX.GWElK6WDh.cl./3Lmn2wwL6KxCsCrueLmujTzXXCe','2024-03-03 19:00:35'),(3,'jesi','$2y$10$QnC.Bk6De059zmlTY7XuOu85IPuG9PDuKhzDdcHUdyR/hkzCFBseK','2024-03-04 20:43:01');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
